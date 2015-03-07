@@ -1,0 +1,122 @@
+#div_tunerMode{position:relative;}
+
+/* Menu */
+#div_tunerModeMenu{
+position:absolute;
+top:5px;right:0;
+background-color:#000000;
+color:#ABABAB;
+float:right;
+
+box-shadow:0 0 8px #121212;
+-moz-box-shadow:0 0 8px #121212;
+-webkit-box-shadow:0 0 8px #121212;
+border-radius:5px;
+
+width:275px;
+height:550px;
+
+transition:0.8s;
+z-index:20;
+}
+
+#table_tunerModeMenu{
+width:90%;
+text-align:center;
+margin:15px 5% 0 5%;
+
+border-radius:10px;
+background-color:#0F0F0F;
+}
+#table_tunerModeMenu  td{
+font-weight:bold;
+font-size:24px;
+font-family:Impact, Charcoal, sans-serif;
+}
+
+#span_currentNote_notename{font-size:1.3em;}
+#span_currentNote_note, #span_currentNote_frequency{font-weight:normal;font-size:20px;}
+
+#div_notespecial{width:40%;height:50px;margin-left:60%;}
+
+#table_playMenu{
+width:90%;
+margin:0 5% 0 5%;
+border-radius:10px;
+background-color:#0F0F0F;
+position:relative;
+bottom:0;
+}
+
+#div_oscTypeMenu{width:15%;float:right;}
+#table_oscTypeMenu{width:100%;}
+.oscType{width:12px;height:8px;}
+
+
+/* Slideout menu, vertical menu */
+#tuner_slideoutMenu{
+font-size:16pt;
+font-family:Impact, Charcoal, sans-serif;
+
+background-color:#000000;
+color:#ABABAB;
+
+box-shadow:0 0 8px #121212;
+-moz-box-shadow:0 0 8px #121212;
+-webkit-box-shadow:0 0 8px #121212;
+border-radius:5px;
+
+position:absolute;
+top:5px;left:205px;
+z-index:15;
+transition:0.6s;
+}
+#tuner_slideoutMenu.slide{left:-300px;}
+#slideoutMenuTable{
+width:100%;
+padding:5px;
+}
+
+
+/* SlideDown menu, horizontal menu */
+#tuner_slideDownMenu{
+font-weight:bold;
+font-size:14px;
+font-family:Impact, Charcoal, sans-serif;
+color:#ABABAB;
+
+background-color:#000000;
+box-shadow:0 0 8px #121212;
+-moz-box-shadow:0 0 8px #121212;
+-webkit-box-shadow:0 0 8px #121212;
+border-radius:5px;
+
+position:absolute;
+top:0;
+padding-bottom:5px;
+padding-right:5px;
+
+width:60%;
+overflow-x:auto;
+
+margin-top:5px;
+margin-left:205px;
+z-index:15;
+transition:0.6s;
+}
+#slideDownMenu li{list-style:none;}
+
+#tuner_slideDownMenu.slide{top:-300px;}
+
+
+/* ****************** */
+/* Output - Show staff */
+#t_output{
+position:relative;
+top:50px;
+width:75%;
+margin-left:40px;
+}
+#canvas_staff{
+width:100%;height:100%;
+}

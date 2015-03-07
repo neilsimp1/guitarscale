@@ -1,0 +1,83 @@
+{"chords":[
+	
+	{
+		"name": "Major",
+		"intervals": "43",
+		"group": "1"
+	},
+	{
+		"name": "Dominant 7th",
+		"intervals": "433",
+		"group": "1"
+	},
+	{
+		"name": "Major 7th",
+		"intervals": "434",
+		"group": "1"
+	},
+	{
+		"name": "Minor",
+		"intervals": "34",
+		"group": "1"
+	},
+	{
+		"name": "Minor 7th",
+		"intervals": "343",
+		"group": "1"
+	},
+	{
+		"name": "Minor Major 7th",
+		"intervals": "344",
+		"group": "1"
+	},
+	
+	
+	{
+		"name": "Diminished",
+		"intervals": "33",
+		"group": "2"
+	},
+	{
+		"name": "Diminished 7th",
+		"intervals": "333",
+		"group": "2"
+	},
+	{
+		"name": "Half Diminished",
+		"intervals": "334",
+		"group": "2"
+	},
+	{
+		"name": "Augmented",
+		"intervals": "44",
+		"group": "2"
+	},
+	{
+		"name": "Augmented 7th",
+		"intervals": "442",
+		"group": "2"
+	},
+		
+	
+	{
+		"name": "Major 6th",
+		"intervals": "432",
+		"group": "3"
+	},
+	{
+		"name": "Minor 6th",
+		"intervals": "342",
+		"group": "3"
+	},
+	{
+		"name": "Suspended 2nd",
+		"intervals": "25",
+		"group": "3"
+	},
+	{
+		"name": "Suspended 4th",
+		"intervals": "52",
+		"group": "3"
+	}
+	
+]}

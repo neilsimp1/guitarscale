@@ -1,0 +1,36 @@
+html{height:100%}
+
+body{
+
+background:-moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 21%, rgba(0,0,0,0.22) 73%, rgba(0,0,0,0) 100%);/* FF3.6+ */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(21%,rgba(0,0,0,0.65)), color-stop(73%,rgba(0,0,0,0.22)), color-stop(100%,rgba(0,0,0,0)));/* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 21%,rgba(0,0,0,0.22) 73%,rgba(0,0,0,0) 100%);/* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 21%,rgba(0,0,0,0.22) 73%,rgba(0,0,0,0) 100%);/* Opera 11.10+ */
+background:-ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 21%,rgba(0,0,0,0.22) 73%,rgba(0,0,0,0) 100%);/* IE10+ */
+background:linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 21%,rgba(0,0,0,0.22) 73%,rgba(0,0,0,0) 100%);/* W3C */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );/* IE6-9 */
+
+background-repeat:repeat-x;
+background-size:100%;
+}
+
+a:link {COLOR: #ABABAB; text-decoration:none}
+a:visited {COLOR: #ABABAB; text-decoration:none}
+a.hoverable:hover{color:#FFFFFF;}
+.pointer{cursor:pointer;}
+
+#modeChooserDiv{
+background-color:#000000;
+color:#FFFFFF;
+vertical-align:top;
+text-align:center;
+box-shadow:0 0 8px #121212;
+-moz-box-shadow:0 0 8px #121212;
+-webkit-box-shadow:0 0 8px #121212;
+border-radius:5px;
+z-index:1;
+position:relative;
+top:0;
+transition:1s;
+}
+#modeChooserDiv.slide{top:5000px;}

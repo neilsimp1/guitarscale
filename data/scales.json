@@ -1,0 +1,98 @@
+{"scales":[
+	
+	{
+		"name": "Major",
+		"intervals": "221222",
+		"group": "1"
+	},
+	{
+		"name": "Minor",
+		"intervals": "212212",
+		"group": "1"
+	},
+	{
+		"name": "Harmonic Minor",
+		"intervals": "212213",
+		"group": "1"
+	},
+	{
+		"name": "Melodic Minor",
+		"intervals": "212222",
+		"group": "1"
+	},
+	{
+		"name": "Pentatonic Major",
+		"intervals": "2232",
+		"group": "1"
+	},
+	{
+		"name": "Pentatonic Minor",
+		"intervals": "3223",
+		"group": "1"
+	},
+	
+	
+	{
+		"name": "Ionian Mode",
+		"intervals": "221222",
+		"group": "2"
+	},
+	{
+		"name": "Dorian Mode",
+		"intervals": "212221",
+		"group": "2"
+	},
+	{
+		"name": "Phygian Mode",
+		"intervals": "122212",
+		"group": "2"
+	},
+	{
+		"name": "Lydian Mode",
+		"intervals": "222122",
+		"group": "2"
+	},
+	{
+		"name": "Mixolydian Mode",
+		"intervals": "221212",
+		"group": "2"
+	},
+	{
+		"name": "Aeolian Mode",
+		"intervals": "212212",
+		"group": "2"
+	},
+	{
+		"name": "Locrian Mode",
+		"intervals": "122122",
+		"group": "2"
+	},
+	
+	
+	{
+		"name": "Diatonic",
+		"intervals": "11111111111",
+		"group": "3"
+	},
+	{
+		"name": "Whole Tone",
+		"intervals": "22222",
+		"group": "3"
+	},
+	{
+		"name": "Diminished",
+		"intervals": "21212121",
+		"group": "3"
+	},
+	{
+		"name": "Augmented",
+		"intervals": "31313",
+		"group": "3"
+	},
+	{
+		"name": "Prometheus",
+		"intervals": "22231",
+		"group": "3"
+	}
+	
+]}

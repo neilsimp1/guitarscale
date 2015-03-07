@@ -1,0 +1,322 @@
+{"notes":[
+	
+	{
+		"notename": "E",
+		"note": "E1",
+		"frequency": "41.2",
+		"special": "lowlowE"
+	},
+	{
+		"notename": "F",
+		"note": "F1",
+		"frequency": "43.7"
+	},
+	{
+		"notename": "F#/Gb",
+		"note": "F#1/Gb1",
+		"frequency": "46.2",
+		"special": "f#"
+	},
+	{
+		"notename": "G",
+		"note": "G1",
+		"frequency": "49.0"
+	},
+	{
+		"notename": "G#/Ab",
+		"note": "G#1/Ab1",
+		"frequency": "51.9"
+	},
+	{
+		"notename": "A",
+		"note": "A1",
+		"frequency": "55.0"
+	},
+	{
+		"notename": "A#/Bb",
+		"note": "A#1/Bb1",
+		"frequency": "58.3"
+	},
+	{
+		"notename": "B",
+		"note": "B1",
+		"frequency": "61.7",
+		"special": "lowb"
+	},
+	
+	
+	{
+		"notename": "C",
+		"note": "C2",
+		"frequency": "65.4"
+	},
+	{
+		"notename": "C#/Db",
+		"note": "C#2/Db2",
+		"frequency": "69.3"
+	},
+	{
+		"notename": "D",
+		"note": "D2",
+		"frequency": "73.4"
+	},
+	{
+		"notename": "D#/Eb",
+		"note": "D#2/Eb2",
+		"frequency": "77.8"
+	},
+	{
+		"notename": "E",
+		"note": "E2",
+		"frequency": "82.4",
+		"special": "lowE"
+	},
+	{
+		"notename": "F",
+		"note": "F2",
+		"frequency": "87.3"
+	},
+	{
+		"notename": "F#/Gb",
+		"note": "F#2/Gb2",
+		"frequency": "92.5"
+	},
+	{
+		"notename": "G",
+		"note": "G2",
+		"frequency": "98.0"
+	},
+	{
+		"notename": "G#/Ab",
+		"note": "G#2/Ab2",
+		"frequency": "103.8"
+	},
+	{
+		"notename": "A",
+		"note": "A2",
+		"frequency": "110.0",
+		"special": "a"
+	},
+	{
+		"notename": "A#/Bb",
+		"note": "A#2/Bb2",
+		"frequency": "116.5"
+	},
+	{
+		"notename": "B",
+		"note": "B2",
+		"frequency": "123.5"
+	},
+	
+	
+	{
+		"notename": "C",
+		"note": "C3",
+		"frequency": "130.8"
+	},
+	{
+		"notename": "C#/Db",
+		"note": "C#3/Db3",
+		"frequency": "138.6"
+	},
+	{
+		"notename": "D",
+		"note": "D3",
+		"frequency": "146.8",
+		"special": "d"
+	},
+	{
+		"notename": "D#/Eb",
+		"note": "D#3/Eb3",
+		"frequency": "155.6"
+	},
+	{
+		"notename": "E",
+		"note": "E3",
+		"frequency": "164.8"
+	},
+	{
+		"notename": "F",
+		"note": "F3",
+		"frequency": "174.6"
+	},
+	{
+		"notename": "F#/Gb",
+		"note": "F#3/Gb3",
+		"frequency": "185.0"
+	},
+	{
+		"notename": "G",
+		"note": "G3",
+		"frequency": "196.0",
+		"special": "g"
+	},
+	{
+		"notename": "G#/Ab",
+		"note": "G#3/Ab3",
+		"frequency": "207.7"
+	},
+	{
+		"notename": "A",
+		"note": "A3",
+		"frequency": "220.0"
+	},
+	{
+		"notename": "A#/Bb",
+		"note": "A#3/Bb3",
+		"frequency": "233.1"
+	},
+	{
+		"notename": "B",
+		"note": "B3",
+		"frequency": "246.9",
+		"special": "b"
+	},
+	
+	
+	{
+		"notename": "C",
+		"note": "C4",
+		"frequency": "261.6"
+	},
+	{
+		"notename": "C#/Db",
+		"note": "C#4/Db4",
+		"frequency": "277.2"
+	},
+	{
+		"notename": "D",
+		"note": "D4",
+		"frequency": "293.7"
+	},
+	{
+		"notename": "D#/Eb",
+		"note": "D#4/Eb4",
+		"frequency": "311.1"
+	},
+	{
+		"notename": "E",
+		"note": "E4",
+		"frequency": "329.6",
+		"special": "e"
+	},
+	{
+		"notename": "F",
+		"note": "F4",
+		"frequency": "349.2"
+	},
+	{
+		"notename": "F#/Gb",
+		"note": "F#4/Gb4",
+		"frequency": "370.0"
+	},
+	{
+		"notename": "G",
+		"note": "G4",
+		"frequency": "392.0"
+	},
+	{
+		"notename": "G#/Ab",
+		"note": "G#4/Ab4",
+		"frequency": "415.3"
+	},
+	{
+		"notename": "A",
+		"note": "A4",
+		"frequency": "440.0"
+	},
+	{
+		"notename": "A#/Bb",
+		"note": "A#4/Bb4",
+		"frequency": "466.2"
+	},
+	{
+		"notename": "B",
+		"note": "B4",
+		"frequency": "493.9"
+	},
+	
+	
+	{
+		"notename": "C",
+		"note": "C5",
+		"frequency": "523.3"
+	},
+	{
+		"notename": "C#/Db",
+		"note": "C#5/Db5",
+		"frequency": "554.4"
+	},
+	{
+		"notename": "D",
+		"note": "D5",
+		"frequency": "587.3"
+	},
+	{
+		"notename": "D#/Eb",
+		"note": "D#5/Eb5",
+		"frequency": "622.3"
+	},
+	{
+		"notename": "E",
+		"note": "E5",
+		"frequency": "659.3"
+	},
+	{
+		"notename": "F",
+		"note": "F5",
+		"frequency": "698.5"
+	},
+	{
+		"notename": "F#/Gb",
+		"note": "F#5/Gb5",
+		"frequency": "740.0"
+	},
+	{
+		"notename": "G",
+		"note": "G5",
+		"frequency": "784.0"
+	},
+	{
+		"notename": "G#/Ab",
+		"note": "G#5/Ab5",
+		"frequency": "830.6"
+	},
+	{
+		"notename": "A",
+		"note": "A5",
+		"frequency": "880.0"
+	},
+	{
+		"notename": "A#/Bb",
+		"note": "A#5/Bb5",
+		"frequency": "932.3"
+	},
+	{
+		"notename": "B",
+		"note": "B5",
+		"frequency": "987.8"
+	},
+	
+	
+	{
+		"notename": "C",
+		"note": "C6",
+		"frequency": "1046.5"
+	},
+	{
+		"notename": "C#/Db",
+		"note": "C#6/Db6",
+		"frequency": "1108.7"
+	},
+	{
+		"notename": "D",
+		"note": "D6",
+		"frequency": "1174.7"
+	},
+	{
+		"notename": "D#/Eb",
+		"note": "D#6/Eb6",
+		"frequency": "1244.5"
+	}
+]}

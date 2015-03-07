@@ -1,0 +1,218 @@
+<div id="noteMode">
+	
+	<div id="noteModeMenu">
+		
+		<table id="noteModeMenuTable">
+			
+			<!-- Choose  number of frets, strings-->
+			<tr>
+				<td class="noteModeMenu_option"># strings<span style="float:right;">></span></td>
+				<td class="noteModeMenu_display"><div id="div_numStrings" style="font-style:normal;"><a id="numStrings" class="pointer hoverable" onclick="numStrings_click();"></a></div></td>
+			</tr>
+			<tr>
+				<td class="noteModeMenu_option"># frets<span style="float:right;">></span></td>
+				<td class="noteModeMenu_display"><div id="div_numFrets" style="font-style:normal;"><a id="numFrets" class="pointer hoverable" onclick="numFrets_click();"></a></div></td>
+			</tr>
+			
+			<!-- Tuner -->
+			<tr><td colspan="2">
+				<div id="tuner"></div>
+			</td></tr>
+		</table>
+		
+		<!-- Note assignment method chooser -->
+		<table id="noteAssignmentMethodTable">
+			<tr><td colspan="3" style="font-size:20px; font-style:italic; text-align:left;">choose by ></td></tr>
+			<tr>
+				<td style="width:50%; font-size:16px;"><a class="pointer hoverable" onclick="noteAssignmentMethod_click(this);">notes</a></td>
+				<td style="width:50%; font-size:16px;"><a class="pointer hoverable" onclick="noteAssignmentMethod_click(this);">scales</a></td>
+			</tr>
+			<tr>
+				<td style="width:50%; font-size:16px;"><a class="pointer hoverable" onclick="noteAssignmentMethod_click(this);">intervals</a></td>
+				<td style="width:50%; font-size:16px;"><a class="pointer hoverable" onclick="noteAssignmentMethod_click(this);">chords</a></td>
+			</tr>
+		</table>
+		
+		
+		<br/>
+		
+		<!-- Note chooser -->
+		<div id="notesChooser">
+			<table style="width:100%;">
+				<tr>
+					<td style="width:50%"><table id="notes_notChosen">
+						<tr><td><a id="0_C" class="pointer hoverable" onclick="notesChooser_click(this);">C</a></td></tr>
+						<tr><td><a id="0_C#Db" class="pointer hoverable" onclick="notesChooser_click(this);">C#Db</a></td></tr>
+						<tr><td><a id="0_D" class="pointer hoverable" onclick="notesChooser_click(this);">D</a></td></tr>
+						<tr><td><a id="0_D#Eb" class="pointer hoverable" onclick="notesChooser_click(this);">D#Eb</a></td></tr>
+						<tr><td><a id="0_E" class="pointer hoverable" onclick="notesChooser_click(this);">E</a></td></tr>
+						<tr><td><a id="0_F" class="pointer hoverable" onclick="notesChooser_click(this);">F</a></td></tr>
+						<tr><td><a id="0_F#Gb" class="pointer hoverable" onclick="notesChooser_click(this);">F#Gb</a></td></tr>
+						<tr><td><a id="0_G" class="pointer hoverable" onclick="notesChooser_click(this);">G</a></td></tr>
+						<tr><td><a id="0_G#Ab" class="pointer hoverable" onclick="notesChooser_click(this);">G#Ab</a></td></tr>
+						<tr><td><a id="0_A" class="pointer hoverable" onclick="notesChooser_click(this);">A</a></td></tr>
+						<tr><td><a id="0_A#Bb" class="pointer hoverable" onclick="notesChooser_click(this);">A#Bb</a></td></tr>
+						<tr><td><a id="0_B" class="pointer hoverable" onclick="notesChooser_click(this);">B</a></td></tr>
+					</table></td>
+					<td style="width:50%"><table id="notes_chosen">
+						<tr><td><a id="1_C" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">C</a></td></tr>
+						<tr><td><a id="1_C#Db" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">C#Db</a></td></tr>
+						<tr><td><a id="1_D" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">D</a></td></tr>
+						<tr><td><a id="1_D#Eb" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">D#Eb</a></td></tr>
+						<tr><td><a id="1_E" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">E</a></td></tr>
+						<tr><td><a id="1_F" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">F</a></td></tr>
+						<tr><td><a id="1_F#Gb" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">F#Gb</a></td></tr>
+						<tr><td><a id="1_G" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">G</a></td></tr>
+						<tr><td><a id="1_G#Ab" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">G#Ab</a></td></tr>
+						<tr><td><a id="1_A" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">A</a></td></tr>
+						<tr><td><a id="1_A#Bb" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">A#Bb</a></td></tr>
+						<tr><td><a id="1_B" class="pointer hoverable" onclick="notesChooser_click(this);" style="visibility:hidden;">B</a></td></tr>
+					</table></td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<!-- Scale chooser -->
+		<div id="scaleChooser" style="display:none;">
+			<table id="scaleChooserTable">
+				<tr>
+					<td><span style="font-style:italic; font-weight:bold;">root ></span></td>
+					<td><a id="scaleRoot" class="pointer hoverable" onclick="scaleRoot_click();"></a></td>
+				</tr>
+				<tr><td><br/><br/></td></tr>
+				<tr>
+					<td colspan="2"><div id="scaleDisplay"></div></td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<!-- Interval chooser -->
+		<div id="intervalChooser" style="display:none;">
+			<table id="intervalChooserTable">
+				<tr>
+					<td><span style="font-style:italic; font-weight:bold;">root ></span></td>
+					<td><a id="intervalRoot" class="pointer hoverable" onclick="intervalRoot_click();"></a></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table id="intervalChooserGridTable">
+							<tr>
+								<td><a id="intervals_0" class="pointer hoverable" onclick="interval_click(this);">1/2 step</a></td><td></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td></td><td><a id="intervals_1" class="pointer hoverable" onclick="interval_click(this);">whole step</a></td><td></td><td></td>
+							</tr>
+							<tr>
+								<td></td><td></td><td><a id="intervals_2" class="pointer hoverable" onclick="interval_click(this);">1.5 steps</a></td><td></td>
+							</tr>
+							<tr>
+								<td id="clearbtn" colspan="2"><a id="intervalClearButton" class="pointer hoverable" onclick="intervalClearButton_click();">Clear</a></td><td></td>
+									<td><a id="intervals_3" class="pointer hoverable" onclick="interval_click(this);">two steps</a></td>
+							</tr>
+							
+							<tr>
+								<td colspan="4"><div id="intervalsDisplay"></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<div id="intervals"></div>
+		</div>
+		
+		<!-- Chord chooser -->
+		<div id="chordChooser" style="display:none;">
+			<table id="chordChooserTable">
+				<tr>
+					<td><span style="font-style:italic; font-weight:bold;">root ></span></td>
+					<td><a id="chordRoot" class="pointer hoverable" onclick="chordRoot_click();"></a></td>
+				</tr>
+				<tr><td><br/><br/></td></tr>
+				<tr>
+					<td colspan="2"><div id="chordDisplay"></div></td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<!-- Left handed / Orientation buttons -->
+		<div id="bottom_menu">
+			<table>
+				<tr>
+					<td style="width:50%;"><a id="l_rButton" class="pointer hoverable" onclick="l_rButton_click();">Left/Right<br/>Handed</a></td>
+					<td style="width:50%;"><a id="v_hButton" class="pointer hoverable" onclick="v_hButton_click();">Vertical/<br/>Horizontal</a></td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- NoteModeMenu showHide button -->
+		<div id="div_noteModeMenu_showHide">
+			<a id="a_showHide_NoteModeMenu" class="pointer hoverable" onclick="showHide_NoteModeMenu();">
+				<img id="img_showHide_NoteModeMenu" src="img/arrow_ln.png" onmouseover="imgBrighter(this);" onmouseout="imgNormal(this);" onmousedown="imgDarker(this);" onmouseup="imgBrighter(this);" />
+			</a>
+		</div>
+		
+	</div>
+	
+	<!-- Slideout menus -->
+	<div id="note_slideoutMenu" class="slide"></div>
+	
+	<!-- Slidedown scale/chord menu -->
+	<div id="note_slideDownMenu" class="slide"></div>
+	
+	<!-- Guitar neck -->
+	<div id="n_output"></div>
+	
+	<!-- Hidden divs -->
+	<div id="hidden_divs">
+		<div id="hidden_numStrings" style="display:none;"></div>
+		<div id="hidden_numFrets" style="display:none;"></div>
+		<div id="hidden_noteAssignmentMethod" style="display:none;"></div>
+		
+		<div id="hidden_numStringsStore" style="display:none;">0</div>
+		<div id="hidden_str" style="display:none;"></div>
+		<div id="hidden_str1" style="display:none;"></div>
+		<div id="hidden_str2" style="display:none;"></div>
+		<div id="hidden_str3" style="display:none;"></div>
+		<div id="hidden_str4" style="display:none;"></div>
+		<div id="hidden_str5" style="display:none;"></div>
+		<div id="hidden_str6" style="display:none;"></div>
+		<div id="hidden_str7" style="display:none;"></div>
+		<div id="hidden_str8" style="display:none;"></div>
+		<div id="hidden_str9" style="display:none;"></div>
+		<div id="hidden_str10" style="display:none;"></div>
+		<div id="hidden_str11" style="display:none;"></div>
+		<div id="hidden_str12" style="display:none;"></div>
+		
+		<div id="hidden_note_C" style="display:none;">0</div>
+		<div id="hidden_note_C#Db" style="display:none;">0</div>
+		<div id="hidden_note_D" style="display:none;">0</div>
+		<div id="hidden_note_D#Eb" style="display:none;">0</div>
+		<div id="hidden_note_E" style="display:none;">0</div>
+		<div id="hidden_note_F" style="display:none;">0</div>
+		<div id="hidden_note_F#Gb" style="display:none;">0</div>
+		<div id="hidden_note_G" style="display:none;">0</div>
+		<div id="hidden_note_G#Ab" style="display:none;">0</div>
+		<div id="hidden_note_A" style="display:none;">0</div>
+		<div id="hidden_note_A#Bb" style="display:none;">0</div>
+		<div id="hidden_note_B" style="display:none;">0</div>
+		
+		<div id="hidden_scaleRoot" style="display:none;"></div>
+		<div id="hidden_scale" style="display:none;"></div>
+		<div id="hidden_scalePattern" style="display:none;"></div>
+		
+		<div id="hidden_intervalRoot" style="display:none;"></div>
+		<div id="hidden_intervalsCounter" style="display:none;"></div>
+		<div id="hidden_intervalsDisplay" style="display:none;"></div>
+		
+		<div id="hidden_chordRoot" style="display:none;"></div>
+		<div id="hidden_chordName" style="display:none;"></div>
+		<div id="hidden_chordIntervals" style="display:none;"></div>
+		
+		<div id="hidden_neckOrientation" style="display:none;"></div>
+	</div>
+	
+	
+</div>

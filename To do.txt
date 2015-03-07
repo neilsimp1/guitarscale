@@ -1,0 +1,23 @@
+NOTES
+
+atlas/spritesheet/possible canvas
+
+hidden divs -> inputs
+
+TUNER
+
+volume
+scale/chord/
+standard tuning
+staff
+piano
+
+METRONOME
+
+
+
+MISC
+
+humans.txt
+meta tags
+mass browser testing
